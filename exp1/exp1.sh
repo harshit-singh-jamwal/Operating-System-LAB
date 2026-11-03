@@ -1,0 +1,8 @@
+
+#! /bin/bash
+if [ "$1" -eq 0 ];
+then
+echo "True"
+else
+echo "False"
+fi
