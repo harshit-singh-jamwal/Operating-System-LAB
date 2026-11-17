@@ -1,31 +1,7 @@
-# Experiment 1 - 
+Experiment 1: Basic Linux Commands and Shell Operations Objective: To understand and practice fundamental Linux commands and shell operations.
 
-## Aim
-Practise Basic Bash
+Topics Covered:
 
-## Description
-The script reads the first command-line argument (`$1`) and compares it numerically with `0`. It prints `True` if the value is 0, otherwise `False`.
+Basic Bash commands. Input and output redirection. Pipes and command chaining. File and directory creation, deletion, and management. Searching files and directories. Process management. Editing files using Vi/Vim and Nano editors.
 
-## Concepts Used
-- Positional parameters (`$1`)
-- `if-else` conditions
-- Numeric comparison with `-eq`
-
-## Files
-- [`exp1.sh`](exp1.sh)
-
-## How to Run
-```bash
-chmod +x exp1.sh
-./exp1.sh 0
-./exp1.sh 5
-```
-
-## Output
-```bash
-True
-False
-```
-
-## Notes
-- Passing a non-numeric argument (or none) makes the `[ ... -eq ... ]` test print an error.
+Outcome: Gained familiarity with the Linux command-line environment and learned how to perform essential file management, searching, redirection, and process-related operations.
