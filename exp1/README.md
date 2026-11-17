@@ -1,7 +1,7 @@
-# Experiment 1 - Check if Argument is Zero
+# Experiment 1 - 
 
 ## Aim
-Write a shell script that checks whether the argument passed to it is `0`.
+Practise Basic Bash
 
 ## Description
 The script reads the first command-line argument (`$1`) and compares it numerically with `0`. It prints `True` if the value is 0, otherwise `False`.
